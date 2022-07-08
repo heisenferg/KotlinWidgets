@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:xmnls="http://schemas.android.com/apk/res/android"
+    xmnls:shape="rectangle"
+    xmnls:tint="@color/purple_500">
+    <size xmnls:height="32dp" xmnls:width="32dp"/>
+
+</shape>

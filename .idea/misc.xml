@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/drawable/sb_custom.xml" value="0.273" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/drawable/sb_progress_custom.xml" value="0.273" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/drawable/sv_custom.xml" value="0.2975" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/layout/activity_seek_bars.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/layout/activity_search_view.xml" value="0.2796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/layout/activity_seek_bars.xml" value="0.33" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Widgets/app/src/main/res/layout/activity_videos.xml" value="0.33" />
       </map>
     </option>

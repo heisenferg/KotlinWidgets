@@ -8,7 +8,7 @@
 
     <SeekBar
         android:id="@+id/sbNormal"
-        android:layout_width="411dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -18,15 +18,19 @@
 
     <SeekBar
         android:id="@+id/sbCustom"
-        android:layout_width="410dp"
-        android:layout_height="28dp"
+        android:layout_width="412dp"
+        android:layout_height="34dp"
+        android:progress="22"
+        android:thumb="@drawable/sb_custom"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sbNormal" />
+        app:layout_constraintTop_toBottomOf="@+id/sbNormal"
+        android:progressDrawable="@drawable/sb_progress_custom"
+       />
 
     <SeekBar
         android:id="@+id/seekBar3"
         style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="408dp"
+        android:layout_width="match_parent"
         android:layout_height="24dp"
         android:max="10"
         android:progress="3"
@@ -34,4 +38,27 @@
         app:layout_constraintTop_toBottomOf="@+id/sbCustom"
         android:thumbTint="@color/purple_700"
         android:progressTint="@color/black"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar3"
+        android:progressBackgroundTint="@color/purple_700"
+        android:rating="2"
+        android:backgroundTint="@color/teal_700"
+        android:isIndicator="false"
+        android:stepSize="0.2"/>
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntuación: "
+        app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
