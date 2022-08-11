@@ -9,9 +9,11 @@ import android.view.View
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
+import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 
@@ -63,7 +65,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        TODO("Not yet implemented")
+
+
+        when (item.itemId){
+            R.id.nav_item_main -> Toast.makeText(this, "Pulsado", Toast.LENGTH_SHORT).show()
+        }
+
+        drawer.closeDrawer(GravityCompat.START)
+
+        return true
+
     }
 
 }
