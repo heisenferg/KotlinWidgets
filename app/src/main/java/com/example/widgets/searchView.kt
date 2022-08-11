@@ -1,7 +1,9 @@
 package com.example.widgets
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.SearchView
@@ -35,4 +37,11 @@ class searchView : AppCompatActivity() {
 
         })
     }
+
+    fun abrirActivity(view: View){
+        val intent= Intent (this, SeekBars::class.java)
+        startActivity(intent)
+    }
+
+
 }

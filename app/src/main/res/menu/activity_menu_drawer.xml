@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/nav_item_main"
+            android:icon="@drawable/ic_baseline_run_circle_24"
+            android:title="Running"/>
+        <item android:id="@+id/menu_star"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="Running"/>
+        <item android:id="@+id/menu_car"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Running"/>
+    </group>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item android:id="@+id/nav_item_clear"
+                android:icon="@drawable/ic_baseline_clear_24"
+                android:title="Limpiar preferencias"/>
+            <item android:id="@+id/nav_item_salir"
+                android:icon="@drawable/ic_baseline_south_west_24"
+                android:title="Salir"/>
+        </menu>
+    </item>
+    <item android:title="Anuncio">
+        <menu>
+            <item android:id="@+id/nav_anuncio"
+                android:icon="@drawable/ic_baseline_clear_24"
+                android:title="Limpiar preferencias"/>
+            <item android:id="@+id/nav_item_otracosa"
+                android:icon="@drawable/ic_baseline_south_west_24"
+                android:title="Salir"/>
+        </menu>
+    </item>
+</menu>

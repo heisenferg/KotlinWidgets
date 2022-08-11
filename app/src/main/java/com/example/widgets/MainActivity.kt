@@ -15,10 +15,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var webView: WebView = findViewById(R.id.webView)
-        var settigsWeb : WebSettings = webView.settings
+        var settigsWeb: WebSettings = webView.settings
         settigsWeb.javaScriptEnabled = true
-       // webView.webViewClient
+        // webView.webViewClient
         webView.webViewClient = WebViewClient()
         webView.loadUrl("https://www.marca.com/")
     }
+
 }
