@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 */
 
         initToolBar()
+        initNavitagionView()
     }
 
 
